@@ -4,6 +4,8 @@ public class Coffee {
 	
 	private int price;
 	private String name;
+	
+	//Add getter setter method
 	public int getPrice() {
 		return price;
 	}
@@ -16,6 +18,8 @@ public class Coffee {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	//Create the constructor
 	public Coffee(int price, String name) {
 		super();
 		this.price = price;
@@ -25,6 +29,8 @@ public class Coffee {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	//create the toString
 	@Override
 	public String toString() {
 		return "Coffee [price=" + price + ", name=" + name + "]";
