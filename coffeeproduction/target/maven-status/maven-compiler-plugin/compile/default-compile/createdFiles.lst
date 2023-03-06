@@ -1,0 +1,3 @@
+com\coffee\coffeeproduction\CoffeeproductionApplication.class
+com\coffee\coffeeproduction\controller\CoffeeProduction.class
+com\coffee\coffeeproduction\entity\Coffee.class
