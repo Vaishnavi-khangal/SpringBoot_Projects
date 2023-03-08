@@ -9,19 +9,20 @@ import com.constructorinj.entity.Trainer;
 //RestController annotation is used to create RESTful web services using Spring MVC
 @RestController
 
+//it is use constructor injection to get trainer
 public class TrainerController {
-	private Trainer tariner;
+	private Trainer trainer;
 
-	public TrainerController(Trainer tariner) {
+	public TrainerController(Trainer trainer) {
 		super();
-		this.tariner = tariner;
+		this.trainer = trainer;
 	}
 	
 	@GetMapping("/teach")
 	//printing the constructor injection
 	public String teach()
 	{
-		tariner.teach();
+		trainer.teach();
 		
 		return "Training completed sucessfully!";
 	}
