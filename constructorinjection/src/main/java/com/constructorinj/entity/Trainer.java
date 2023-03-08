@@ -27,7 +27,7 @@ public class Trainer {
 	public String toString() {
 		return "Trainer [subject=" + subject + "]";
 	}
-	
+	//Printing the constructor injections
 	public void teach ()
 	{
 		System.out.println("Trainer is teaching "+ subject.getName());
